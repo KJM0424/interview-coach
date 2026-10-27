@@ -20,7 +20,7 @@ import llm_client
 import prompts
 from llm_client import LLMClient, LLMError, LLMResponseError
 
-PASS_SCORE = 7.0
+PASS_SCORE = 6.0
 MAX_REANSWERS = 2
 ROLE_OPTIONS = ["AI 엔지니어", "백엔드 개발자", "직접 입력"]
 CUSTOM_ROLE = "직접 입력"
