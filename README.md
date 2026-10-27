@@ -39,6 +39,33 @@
     <td>답변에 나온 내용을 근거로, 청킹 효과와 평가 세트 효과를 어떻게 구분했는지 묻는다.</td>
     <td>평균 5점으로 기준 미달. 임원은 "평가 세트가 쉬웠을 수 있다"는 설명이 자료에 없다고 지적했다. 자료에 없는 내용은 칭찬하지 않는 규칙이 동작한 예다.</td>
   </tr>
+  <tr>
+    <th colspan="2">5. 결과: 평균과 질문별 점수</th>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="docs/images/result-summary.png" alt="결과 화면 상단: 평균 점수와 평가위원별 점수" width="100%"></td>
+  </tr>
+  <tr>
+    <td colspan="2">5문항이 끝나면 평균 점수, 평가위원별 평균, 질문별 점수를 보여준다. 점수 계산은 모두 코드가 한다.</td>
+  </tr>
+  <tr>
+    <th colspan="2">6. 결과: 강점과 보완할 점</th>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="docs/images/result-feedback.png" alt="결과 화면 하단: 강점과 보완할 점" width="100%"></td>
+  </tr>
+  <tr>
+    <td colspan="2">면접 전체 답변을 보고 강점과 보완할 점을 3개씩 정리한다.</td>
+  </tr>
+  <tr>
+    <th colspan="2">7. 결과: 모범 답변</th>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="docs/images/result-model-answer.png" alt="결과 화면: 원래 답변과 다시 쓴 모범 답변 비교" width="100%"></td>
+  </tr>
+  <tr>
+    <td colspan="2">점수가 가장 낮았던 답변("잘 모르겠습니다", 1.2점)을 다시 쓴다. 자료에 없는 수치는 지어내지 않고 <code>[녹음 개수]</code>처럼 빈칸으로 남긴다.</td>
+  </tr>
 </table>
 
 ## 빠른 시작
