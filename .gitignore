@@ -1,0 +1,13 @@
+# 비밀 정보
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ruff_cache/
+
+# macOS
+.DS_Store
+.pytest_cache/
