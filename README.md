@@ -10,6 +10,37 @@
 - **결과 리포트**: 질문별 점수, 평가위원별 평균, 강점·보완할 점 각 3개, 다시 쓴 모범 답변. `.md`로 내려받을 수 있다.
 - **음성 답변**: 입력창의 마이크 버튼으로 말하면 답변 칸이 채워진다. 브라우저 내장 음성 인식이라 비용이 없다.
 
+## 화면 예시
+
+배포 앱(Gemini)에서 `test_data/ai_newgrad/`의 가상 지원자(AI 엔지니어 신입)로 진행한 화면이다.
+
+<table>
+  <tr>
+    <th width="50%">1. 자료를 짚는 질문</th>
+    <th width="50%">2. 평가위원 4명의 채점</th>
+  </tr>
+  <tr>
+    <td valign="top"><img src="docs/images/interview-question.png" alt="질문과 답변 화면" width="100%"></td>
+    <td valign="top"><img src="docs/images/interview-evaluation.png" alt="답변 평가 화면" width="100%"></td>
+  </tr>
+  <tr>
+    <td>자소서의 "Top-3 포함률 0.48 → 0.74"를 짚어, 평가 세트를 어떻게 만들었는지 묻는다.</td>
+    <td>평균 6점으로 기준 통과. 평가위원마다 점수, 이유, 바로 고칠 수 있는 개선점을 준다.</td>
+  </tr>
+  <tr>
+    <th>3. 답변을 파고드는 꼬리 질문</th>
+    <th>4. 꼬리 질문 평가</th>
+  </tr>
+  <tr>
+    <td valign="top"><img src="docs/images/interview-followup.png" alt="꼬리 질문과 답변 화면" width="100%"></td>
+    <td valign="top"><img src="docs/images/interview-followup-evaluation.png" alt="꼬리 질문 평가 화면" width="100%"></td>
+  </tr>
+  <tr>
+    <td>답변에 나온 내용을 근거로, 청킹 효과와 평가 세트 효과를 어떻게 구분했는지 묻는다.</td>
+    <td>평균 5점으로 기준 미달. 임원은 "평가 세트가 쉬웠을 수 있다"는 설명이 자료에 없다고 지적했다. 자료에 없는 내용은 칭찬하지 않는 규칙이 동작한 예다.</td>
+  </tr>
+</table>
+
 ## 빠른 시작
 
 Python 3.11 이상이 필요하다.
