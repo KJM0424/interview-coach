@@ -1,0 +1,8 @@
+line-length = 100
+
+[lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+
+[lint.per-file-ignores]
+# 프롬프트 본문은 자연어 문장이라 줄 길이를 제한하지 않는다
+"prompts.py" = ["E501"]
