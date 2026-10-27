@@ -1,0 +1,25 @@
+# 위젯 기본 테마. 화면 레이아웃과 세부 스타일은 style.css에 있다.
+# 토스 채용 페이지처럼 흰 바탕의 라이트 테마 하나만 쓴다.
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "light"
+font = "Pretendard:https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css, sans-serif"
+headingFont = "Pretendard:https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css, sans-serif"
+baseFontSize = 16
+baseRadius = "0.75rem"
+buttonRadius = "0.625rem"
+showWidgetBorder = true
+linkUnderline = false
+primaryColor = "#3182F6"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F2F4F6"
+textColor = "#191F28"
+borderColor = "#E5E8EB"
+linkColor = "#1B64DA"
+blueColor = "#1B64DA"
+redColor = "#D22030"
+greenColor = "#0A7E50"
+grayColor = "#6B7684"
